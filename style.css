@@ -1,0 +1,61 @@
+*{
+	font-family: "Yusei Magic";
+}
+html {
+  scroll-behavior: smooth;
+}
+#download{
+	background-image: url(img/second_background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.container-fluid{
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.carousel{
+	height: 40%;
+	width: 40%;
+}
+#news{
+	background-color: #f7f6e7;
+	padding: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#requirements{
+	padding: 20px;
+	background:url(img/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.first_req{
+	display: flex;
+	justify-content: start;
+}
+.second_req{
+	display: flex;
+	justify-content: center;
+}
+.third_req{
+	display: flex;
+	justify-content:flex-end;
+}
+#footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: center; 
+	background-color: #111111;
+	padding: 20px;
+}
